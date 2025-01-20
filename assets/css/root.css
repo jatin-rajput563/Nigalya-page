@@ -18,6 +18,7 @@
     --fw-900: 900;
     /* ----color----  */
     --white: #FFFFFF;
+    --black: black;
 }
 
 .fs-sm {
@@ -80,16 +81,14 @@
     color: var(--white);
 }
 
-@media (max-width:375px) {
-    :root {
-        --fs-96: 71px;
-        --lh-109: 60px;
-    }
+.bg-black {
+    background-color: var(--black);
 }
 
-@media (max-width:375px) {
+
+@media (max-width:575.98px) {
     :root {
-        --fs-96: 71px;
-        --lh-109: 60px;
+        --fs-96: 48px;
+        --lh-109: 51px;
     }
 }

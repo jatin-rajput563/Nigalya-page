@@ -137,6 +137,8 @@ section {
     color: white;
     padding-left: 29px;
     transition: all 200ms linear;
+    position: relative;
+    z-index: 1;
 }
 
 .Whitepaper-btn:hover {
@@ -157,7 +159,6 @@ section {
 .pt-70 {
     padding-top: 70px;
 }
-
 
 .col-xl-6 {
     width: 50%;
@@ -195,9 +196,11 @@ section {
         padding-left: 12px;
         padding-right: 12px;
     }
-}
 
-@media (max-width:767.98px) {
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+
     .text-md-center {
         text-align: center;
     }
@@ -211,9 +214,15 @@ section {
         display: flex;
         align-items: center;
     }
+}
 
+@media (max-width:767.98px) {
     .mb-44 {
         margin-bottom: 44px;
+    }
+
+    .pb-10 {
+        padding-bottom: 10px;
     }
 }
 
@@ -228,6 +237,11 @@ section {
 .nav-links {
     transition: all 200ms linear;
 }
-.nav-links:hover{
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.nav-links:hover {
     color: #056BF1;
 }
