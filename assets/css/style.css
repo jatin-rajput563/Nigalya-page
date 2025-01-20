@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +7,6 @@
     text-decoration: none;
     border: none;
     box-sizing: border-box;
-}
-
-section {
-    min-height: 100vh;
 }
 
 .container {
@@ -25,6 +23,12 @@ section {
     flex-wrap: wrap;
     margin-left: -12px;
     margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .bg-img {
@@ -66,7 +70,8 @@ section {
 }
 
 .nav-bg {
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    width: 100%;
     height: 80px;
     background: #00000080;
     backdrop-filter: blur(20px);
@@ -86,4 +91,80 @@ section {
 
 .pt-26 {
     padding-top: 26px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.header-main-img {
+    position: absolute;
+    bottom: 0;
+}
+
+.jost-family {
+    font-family: "Jost", sans-serif;
+
+}
+
+.mx-561 {
+    max-width: 561px;
+}
+
+.JOIN-btn {
+    padding: 16px 32px 16px 32px;
+    border-radius: 30.5px;
+    background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
+    color: white;
+    transition: all 200ms linear;
+}
+
+.JOIN-btn:hover {
+    background: linear-gradient(135.55deg, #1c4c5f -2.07%, #056BF1 105.81%);
+}
+
+.Whitepaper-btn {
+    border: none;
+    outline: none;
+    background-color: unset;
+    color: white;
+    padding-left: 29px;
+    transition: all 200ms linear;
+}
+
+.Whitepaper-btn:hover {
+    padding: 16px 28px 16px 28px;
+    border-radius: 30.5px;
+    background-color: white;
+    color: black;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mx-656 {
+    max-width: 656px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+
+.col-xl-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.bottom-layer{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:991.98px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }

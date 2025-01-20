@@ -13,22 +13,22 @@
     --lh-41: 41.04px;
     --lh-109: 109.44px;
     /* font-weight */
-    --fw-400: 400px;
-    --fw-600: 600px;
-    --fw-900: 900px;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-900: 900;
     /* ----color----  */
     --white: #FFFFFF;
 }
 
-.fs-small {
+.fs-sm {
     font-size: var(--fs-16);
 }
 
-.fs-medum {
+.fs-md {
     font-size: var(--fs-20);
 }
 
-.fs-large {
+.fs-lg {
     font-size: var(--fs-24);
 }
 
