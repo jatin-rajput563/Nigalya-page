@@ -10,10 +10,41 @@
     <link rel="shortcut icon" href="/assets/image/png/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <section>
-        
-    </section>
+<body class="text-white ">
+    <header class="bg-img">
+        <nav class="d-flex nav-bg w-100 justify-space-between d-flex pl-150">
+            <div class="pt-15">
+                <img src="./assets/image/svg/logo.svg" alt="logo">
+            </div>
+            <ul id="name" class="d-flex nav-link justify-centent-center align-items-center gap-39">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>ROADMAP</li>
+                <li>TEAM</li>
+                <li>FAQ</li>
+            </ul>
+            <ul class="d-flex gap-14 d-flex justify-centent-center align-items-center">
+                <a href="#">
+                    <img src="/assets/image/svg/twiter-svg.svg" alt="twiter-svg">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/svg/telegram-svg.svg" alt="telegram-svg">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/svg/instagram-svg.svg" alt="instagram-svg">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/svg/discord-svg.svg" alt="discord-svg">
+                </a>
+            </ul>
+            <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
+                <span class="menu-lines bg-light" id="rotates"></span>
+                <span class="menu-lines bg-light" id="transparent"></span>
+                <span class="menu-lines bg-light" id="rotates2"></span>
+            </div>
+        </nav>
+    </header>
+    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>
