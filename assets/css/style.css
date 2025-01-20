@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+section {
+    overflow: hidden;
+}
+
 .container {
     max-width: 1440px;
     margin-left: auto;
@@ -116,10 +120,14 @@
     background: linear-gradient(135.55deg, #06AFF2 -2.07%, #056BF1 105.81%);
     color: white;
     transition: all 200ms linear;
+    position: relative;
+    z-index: 1;
 }
 
 .JOIN-btn:hover {
     background: linear-gradient(135.55deg, #1c4c5f -2.07%, #056BF1 105.81%);
+    position: relative;
+    z-index: 1;
 }
 
 .Whitepaper-btn {
@@ -146,8 +154,8 @@
     max-width: 656px;
 }
 
-.pt-50 {
-    padding-top: 50px;
+.pt-70 {
+    padding-top: 70px;
 }
 
 
@@ -160,14 +168,6 @@
 .bottom-layer {
     position: absolute;
     bottom: 0;
-}
-
-@media (max-width:991.98px) {
-    .col-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
 }
 
 /* ----------section-2------------- */
@@ -187,4 +187,47 @@
 
 .pt-199 {
     padding-top: 199px;
+}
+
+@media (max-width:991.98px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .text-md-center {
+        text-align: center;
+    }
+
+    .mx-561 {
+        max-width: unset;
+    }
+
+    .md-center {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .mb-44 {
+        margin-bottom: 44px;
+    }
+}
+
+.icon {
+    transition: all 200ms linear;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.nav-links {
+    transition: all 200ms linear;
+}
+.nav-links:hover{
+    color: #056BF1;
 }

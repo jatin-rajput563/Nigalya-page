@@ -79,3 +79,17 @@
 .white-colour {
     color: var(--white);
 }
+
+@media (max-width:375px) {
+    :root {
+        --fs-96: 71px;
+        --lh-109: 60px;
+    }
+}
+
+@media (max-width:375px) {
+    :root {
+        --fs-96: 71px;
+        --lh-109: 60px;
+    }
+}
