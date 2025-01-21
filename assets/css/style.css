@@ -198,7 +198,7 @@ section {
 }
 
 .min-vh-100 {
-    height: 100vh;
+    height: 100vh !important;
 }
 
 .text-center {
@@ -227,6 +227,15 @@ section {
 
 .nav-links:hover {
     color: #056BF1;
+}
+
+.pt-49 {
+    padding-top: 49px;
+}
+
+.time-para {
+    position: absolute;
+    bottom: 0;
 }
 
 @media (max-width:991.98px) {
