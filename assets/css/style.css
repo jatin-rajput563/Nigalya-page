@@ -233,9 +233,16 @@ section {
     padding-top: 49px;
 }
 
-.time-para {
-    position: absolute;
-    bottom: 0;
+.mt-199 {
+    margin-top: 199px;
+}
+
+.mt-223 {
+    margin-top: 223px;
+}
+
+.pb-74 {
+    padding-bottom: 74px;
 }
 
 @media (max-width:991.98px) {
@@ -352,5 +359,12 @@ section {
 
     .d-lg-none {
         display: none;
+    }
+}
+
+@media (max-width:1159.98px) {
+    .py-150 {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
