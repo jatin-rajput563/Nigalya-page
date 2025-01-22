@@ -18,7 +18,7 @@
     --fw-900: 900;
     /* ----color----  */
     --white: #FFFFFF;
-    --black: black;
+    --black: #0D0D0D;
 }
 
 .fs-sm {
@@ -82,7 +82,7 @@
 }
 
 .bg-black {
-    background-color: var(--black);
+    background-color: var(--black) !important;
 }
 
 

@@ -245,6 +245,8 @@
     background-color: transparent;
 }
 
+/* ==========section-3=========== */
+
 .grid {
     display: grid;
     grid-row: auto;
@@ -431,4 +433,17 @@
     .d-lg-none {
         display: none;
     }
+}
+
+
+
+
+
+.sec-4-bg {
+    background-image: url(/assets/image/png/sec-4-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.accordion-item{
+    max-width: 635px !important;
 }
