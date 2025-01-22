@@ -113,7 +113,7 @@
     padding-top: 209px;
 }
 
-.pt-80 {
+.pt-233 {
     padding-top: 233px;
 }
 
@@ -325,6 +325,14 @@
 
     .pb-10 {
         padding-bottom: 10px;
+    }
+
+    .pt-209 {
+        padding-top: 0;
+    }
+
+    .pt-233 {
+        padding-top: 100px;
     }
 }
 
