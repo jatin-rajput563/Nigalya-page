@@ -4,7 +4,7 @@
     --fs-20: 20px;
     --fs-24: 24px;
     --fs-36: 36px;
-    --fs-96: 96px;
+    --fs-94: 94px;
     /* ----line-height----  */
     --lh-18: 18.24;
     --lh-19: 19.28px;
@@ -38,7 +38,7 @@
 }
 
 .fs-xxl {
-    font-size: var(--fs-96);
+    font-size: var(--fs-94);
 }
 
 .lh-18 {
@@ -88,7 +88,7 @@
 
 @media (max-width:575.98px) {
     :root {
-        --fs-96: 48px;
+        --fs-94: 48px;
         --lh-109: 51px;
     }
 }
