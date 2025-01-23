@@ -1,68 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    box-sizing: border-box;
-}
-
-.min-vh-100 {
-    min-height: 100vh;
-}
-
-.container {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
-}
-
-.col-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
+.mx-1140 {
+    max-width: 1140px !important;
 }
 
 .bg-img {
     background-image: url(/assets/image/png/section-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top !important;
 }
 
-.d-flex {
-    display: flex;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-
-.w-100 {
+.nav-bg {
     width: 100%;
-}
+    height: 80px;
+    background: #00000080;
+    backdrop-filter: blur(20px);
 
-.text-white {
-    color: white;
 }
 
 .gap-14 {
@@ -163,10 +117,6 @@
     color: black;
 }
 
-.z-1 {
-    z-index: 1;
-}
-
 .mt-30 {
     margin-top: 30px;
 }
@@ -177,12 +127,6 @@
 
 .pt-70 {
     padding-top: 70px;
-}
-
-.col-xl-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
 }
 
 .bottom-layer {
@@ -293,6 +237,7 @@
     background-image: url(/assets/image/png/sec-4-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-4 .accordion-item {
@@ -351,6 +296,15 @@
 
 .pt-257 {
     padding-top: 257px;
+}
+
+.col-xl-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.z-5{
+    z-index: 5;
 }
 
 @media (max-width:991.98px) {
@@ -466,6 +420,10 @@
     .pt-209 {
         padding-top: 0 !important;
     }
+    .JOIN-btn{
+        z-index: unset !important;
+        position: unset !important;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -522,8 +480,9 @@
         display: none;
     }
 }
+
 @media (max-width:578px) {
-    .pt-43{
+    .pt-43 {
         padding-top: 25px !important;
     }
 }
