@@ -491,9 +491,18 @@
 /* .accordion-main-img {
     right: 25px;
 } */
- .accordion-top-layer{
+.accordion-top-layer {
     top: 0;
- }
- .pt-63{
+}
+
+.pt-63 {
     padding-top: 63px;
- }
+}
+
+.section-4 .pl-0 {
+    padding-left: 0;
+}
+
+.pt-185 {
+    padding-top: 185px;
+}
