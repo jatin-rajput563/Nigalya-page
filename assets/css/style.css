@@ -8,7 +8,7 @@
     background-image: url(/assets/image/png/section-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top !important;
+    background-position: inherit !important;
 }
 
 .nav-bg {
@@ -16,7 +16,6 @@
     height: 80px;
     background: #00000080;
     backdrop-filter: blur(20px);
-
 }
 
 .gap-14 {
@@ -71,10 +70,6 @@
     padding-top: 233px;
 }
 
-.position-relative {
-    position: relative;
-}
-
 .header-main-img {
     position: absolute;
     bottom: 0;
@@ -82,7 +77,6 @@
 
 .jost-family {
     font-family: "Jost", sans-serif;
-
 }
 
 .mx-561 {
@@ -106,7 +100,6 @@
     outline: none;
     background-color: unset;
     color: white;
-    padding-left: 29px;
     transition: all 200ms linear;
 }
 
@@ -119,6 +112,10 @@
 
 .mt-30 {
     margin-top: 30px;
+}
+
+.ml-29 {
+    margin-left: 29px;
 }
 
 .mx-656 {
@@ -139,10 +136,6 @@
     background-image: url(/assets/image/png/sec-2-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.text-center {
-    text-align: center;
 }
 
 .pt-199 {
@@ -298,28 +291,17 @@
     padding-top: 257px;
 }
 
-.col-xl-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-.z-5{
+.z-5 {
     z-index: 5;
 }
 
 @media (max-width:991.98px) {
-    .col-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .col-reverse {
+    .flex-reverse {
         flex-direction: column-reverse !important;
     }
 
-    .text-md-center {
-        text-align: center;
+    .ml-29 {
+        margin-left: 0;
     }
 
     .mx-561 {
@@ -420,7 +402,8 @@
     .pt-209 {
         padding-top: 0 !important;
     }
-    .JOIN-btn{
+
+    .JOIN-btn {
         z-index: unset !important;
         position: unset !important;
     }
@@ -476,13 +459,18 @@
         gap: 20px !important;
     }
 
-    .d-lg-none {
-        display: none;
-    }
 }
 
-@media (max-width:578px) {
+@media (max-width:575.98px) {
     .pt-43 {
         padding-top: 25px !important;
+    }
+
+    .sec-4-bg {
+        background-position: left !important;
+    }
+
+    .sm-flex-column {
+        flex-direction: column;
     }
 }
