@@ -7,31 +7,30 @@
     <title>Nigalya-page</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/root.css">
-    <link rel="shortcut icon" href="/assets/image/png/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/image/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body class="text-white bg-black">
-    <section class="bg-img position-relative min-vh-100">
-        <div class="container">
-            <nav class="d-flex justify-space-between lg-center py-22">
+    <section class="bg-img position-relative min-vh-100 overflow-hidden">
+        <nav class="nav-bg">
+            <div class="d-flex justify-content-between lg-center py-22 container">
                 <div>
-                    <img src="/assets/image/svg/logo.svg" alt="logo">
+                    <a href="#">
+                        <img class="mt-3" src="/assets/image/svg/logo.svg" alt="logo">
+                    </a>
                 </div>
-                <div onclick="navbarbtn()" class="z-5  d-lg-none">
+                <div onclick="navbarbtn()" class="z-5 d-lg-none pt-26 ">
                     <span class="menu-lines " id="rotats"></span>
                     <span class="menu-lines " id="transparent"></span>
                     <span class="menu-lines " id="rotats2"></span>
                 </div>
-                <ul id="nav-name" class="list-unstyled nav-link  d-flex">
+                <ul id="nav-name" class="list-unstyled nav-link d-flex">
                     <li class="pt-27 pl-23">
-                        <!-- <div>
-                            <img class="pt-15 " src="/assets/image/svg/logo.svg" alt="logo">
-                        </div> -->
                     </li>
                     <li>
-                        <ul class="d-flex list-unstyled gap-lg-14 pt-31 pt items-center gap-39">
+                        <ul class="d-flex list-unstyled gap-lg-14 pt-31 pt items-center gap-39 mb-0">
                             <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">HOME</li>
                             <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">ABOUT</li>
                             <li class="jost-family fw-light fs-sm lh-19 nav-links cursor-pointer">ROADMAP</li>
@@ -64,34 +63,41 @@
                         </ul>
                     </li>
                 </ul>
-            </nav>
-            <div class="row col-reverse">
+            </div>
+        </nav>
+        <div class="container mx-1140">
+            <div class="row flex-reverse">
                 <div class="col-12 col-xl-6">
-                    <img class="w-100 pt-209" src="./assets/image/png/header-main-img.png" alt="">
+                    <img class="w-100 pt-255" src="./assets/image/png/header-main-img.png" alt="">
                 </div>
                 <div class="col-12 col-xl-6">
                     <div class="pt-233">
-                        <h4 class="fw-normal fs-lg lh-27 jost-family pt-24 text-md-center pb-10">Welcome to Nigalya</h4>
-                        <h1 class="mx-561 fw-bold fs-xxl jost-family lh-109 text-md-center">Land of eternal NFT
+                        <h4 class="fw-normal fs-lg lh-27 jost-family pt-24 pb-10 text-align-md-center">Welcome to
+                            Nigalya
+                        </h4>
+                        <h1 class="mx-561 fw-bold fs-xxl jost-family lh-109 text-align-md-center">Land of eternal NFT
                             challengers
                         </h1>
-                        <h4 class="jost-family fw-normal fs-md lh-22 text-md-center pt-15">The first-choose-to earn on
+                        <h4 class="jost-family fw-normal fs-md lh-22 pt-15 text-align-md-center">The first-choose-to
+                            earn on
                             the
                             blockchain</h4>
-                        <div class="mt-30 md-center mb-44 z-1 position-relative">
-                            <button class="JOIN-btn jost-family fw-normal fs-md lh-22 cursor-pointer">JOIN NOW</button>
+                        <div class="mt-30 md-center mb-44 sm-flex-column home-page-btn">
+                            <button class="JOIN-btn jost-family fw-normal fs-md lh-22 cursor-pointer border-0 mb-5">JOIN
+                                NOW</button>
                             <button
-                                class="Whitepaper-btn jost-family fw-normal fs-md lh-22 cursor-pointer">Whitepaper</button>
+                                class="Whitepaper-btn ml-29 jost-family fw-normal fs-md lh-22 cursor-pointer">Whitepaper</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <img class="w-100 bottom-layer" src="./assets/image/png/bottom-layer.png" alt="bottom-layer">
+        <img class="w-100 bottom-layer position-absolute bottom-0" src="./assets/image/png/bottom-layer.png"
+            alt="bottom-layer">
     </section>
     <!-- ============section-2============ -->
     <section class="sec-2-bg-img">
-        <div class="container">
+        <div class="container mx-1140">
             <p class="fw-normal fs-lg lh-27 jost-family text-center pt-223">Trailor</p>
             <p class="jost-family fw-bold fs-xxl lh-109 text-center">Coming soon...</p>
             <p class="jost-family fw-normal fs-xl lh-41 text-center mt-199">10:22:25:42</p>
@@ -99,6 +105,7 @@
         </div>
     </section>
     <!-- ============section-3============ -->
+<<<<<<< HEAD
     <section class="">
         <div class="container">
             <p class="jost-family fw-bold fs-xxl text-center pt-5 pb-2">A Quick Hightlight</p>
@@ -112,13 +119,41 @@
                 <img class="grid-item-6 w-100 h-100" src="./assets/image/png/grid-img-5.png" alt="grid-img-5">
             </div>
             <p class="mx-946 jost fw-semibold fs-lg lh-35 text-center mx-auto pt-5 pb-5">Nigalya offers a NFT collection
+=======
+    <section>
+        <div class="container mx-1140">
+            <p class="jost-family fw-bold fs-xxl text-center pt-70 pb-2 m-0">A Quick Hightlight</p>
+            <p class="jost-family fw-semibold fs-sm text-center pb-74 m-0">ON YOUR TACTICAL GEAR</p>
+            <div class="grid">
+                <div class="grid-item-1 mt-16 ">
+                    <img class="w-100 h-100" src="./assets/image/png/hightlight-img.png" alt="hightlight-img">
+                </div>
+                <div class="grid-item-2 mt-16 ml-lg-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-img-1.png" alt="grid-img-1">
+                </div>
+                <div class="grid-item-3 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-img-2.png" alt="grid-img-2">
+                </div>
+                <div class="grid-item-4 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-img-3.png" alt="grid-img-3">
+                </div>
+                <div class="grid-item-5 mt-16 ml-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-img-4.png" alt="grid-img-4">
+                </div>
+                <div class="grid-item-6 mt-16 ml-lg-16">
+                    <img class="w-100 h-100" src="./assets/image/png/grid-img-5.png" alt="grid-img-5">
+                </div>
+            </div>
+            <p class="mx-946 jost fw-semibold fs-lg lh-35 text-center mx-auto mt-5 mb-5">Nigalya offers a NFT collection
+>>>>>>> 1bf0e20796eda0a3357e9385dc9c5cfc2518f4cc
                 with
                 infinitely diverse very high standards elements around your Panda
-                Hero: headwear, drone companions, wings, weaponized items, and more. <br>
+                Hero: headwear, drone companions, wings, weaponized items, and more. <br><br>
                 Be part of the community now by choosing your avatar hosted on the IPFS.</p>
         </div>
     </section>
     <!-- ============section-4============ -->
+<<<<<<< HEAD
     <section class="sec-4-bg section-4 position-relative min-vh-100">
         <img class="position-absolute accordion-top-layer w-100" src="./assets/image/png/accordion-top-layer.png"
             alt="">
@@ -301,26 +336,198 @@
                                     urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
                                 </div>
                             </div>
+=======
+    <section class="sec-4-bg section-4 position-relative">
+        <div class="container mx-1140">
+            <p class="jost-family fw-bold fs-xxl lh-109 position-relative z-1 pt-63 mb-5 text-align-md-center">FAQs</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header text-white">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                            aria-controls="collapseOne">
+                            Leo sed aliquam odio a
+                            dictumst
+                            est
+                            convallis eu hendrerit. Viverra
+                            cras.
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+>>>>>>> 1bf0e20796eda0a3357e9385dc9c5cfc2518f4cc
                         </div>
                     </div>
-                    <div class="d-flex gap-2 pt-5 pb-3">
-                        <a href="https://x.com/?lang=en" target="_blank">
-                            <img class="icon" src="/assets/image/svg/twiter-svg.svg" alt="twiter-svg">
-                        </a>
-                        <a href="https://web.telegram.org/" target="_blank">
-                            <img class="icon" src="/assets/image/svg/telegram-svg.svg" alt="telegram-svg">
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank">
-                            <img class="icon" src="/assets/image/svg/instagram-svg.svg" alt="instagram-svg">
-                        </a>
-                        <a href="https://discord.com/channels/" target="_blank">
-                            <img class="icon" src="/assets/image/svg/discord-svg.svg" alt="discord-svg">
-                        </a>
+                </div>
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button pl-0 text-white jost-family fw-semibold fs-sm m-0" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                            aria-controls="collapseTwo">
+                            Pellentesque mauris, est at
+                            magna.
+                            Vel
+                            curabitur amet sit id. Enim.
+                        </button>
+                    </h2>
+                    <div id="collapseTwo"
+                        class="accordion-collapse collapse show jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+                        </div>
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="col-12 col-lg-6">
                     <img class="pt-225 accordion-main-img w-100" src="./assets/image/png/accordion-main-img.png" alt="">
+=======
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            Sodales morbi ultrices ipsum
+                            posuere
+                            rhoncus augue habitasse tellus.
+                        </button>
+                    </h2>
+                    <div id="collapseThree"
+                        class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+                        </div>
+                    </div>
+>>>>>>> 1bf0e20796eda0a3357e9385dc9c5cfc2518f4cc
                 </div>
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">
+                            Tortor felis scelerisque
+                            blandit
+                            ullamcorper. Habitant integer in aliquam.
+                        </button>
+                    </h2>
+                    <div id="collapseFour"
+                        class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                            aria-controls="collapseFive">
+                            Aliquam orci, ut sodales
+                            morbi
+                            hac.
+                            Sagittis odio sit pharetra sit. Porta.
+                        </button>
+                    </h2>
+                    <div id="collapseFive"
+                        class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                            aria-controls="collapseSix">
+                            Facilisi magna montes,
+                            adipiscing
+                            ornare
+                            gravida odio. Dapibus aliquam.
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-24">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed pl-0 text-white jost-family fw-semibold fs-sm m-0"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                            aria-expanded="false" aria-controls="collapseSeven">
+                            Neque maecenas id at
+                            hendrerit.
+                            Accumsan
+                            cursus augue sed accumsan.
+                        </button>
+                    </h2>
+                    <div id="collapseSeven"
+                        class="accordion-collapse collapse jost-family fw-normal fs-sm lh-24 grey m-0"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body pl-0 pt-0">
+                            Et nibh sit suspendisse ac.
+                            Ipsum
+                            enim
+                            quisque cursus ullamcorper. Ultrices erat odio
+                            urna
+                            urna nunc, suspendisse venenatis sagittis volutpat. Morbi sit nullam diam arcu.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-2 pt-5 pb-3 center ">
+                <a href="https://x.com/?lang=en" target="_blank">
+                    <img class="icon" src="/assets/image/svg/twiter-svg.svg" alt="twiter-svg">
+                </a>
+                <a href="https://web.telegram.org/" target="_blank">
+                    <img class="icon" src="/assets/image/svg/telegram-svg.svg" alt="telegram-svg">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img class="icon" src="/assets/image/svg/instagram-svg.svg" alt="instagram-svg">
+                </a>
+                <a href="https://discord.com/channels/" target="_blank">
+                    <img class="icon" src="/assets/image/svg/discord-svg.svg" alt="discord-svg">
+                </a>
             </div>
         </div>
     </section>
