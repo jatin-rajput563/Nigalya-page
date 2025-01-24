@@ -103,6 +103,14 @@
     margin-top: 24px;
 }
 
+.pt-133 {
+    padding-top: 133px;
+}
+
+.pt-154 {
+    padding-top: 154px;
+}
+
 .mx-946 {
     max-width: 946px;
 }
@@ -216,7 +224,7 @@
     display: grid;
     grid-row: auto;
     grid-column: auto;
-    /* gap: 16.55px; */
+    gap: 16.55px;
 }
 
 .grid-item-1 {
@@ -307,6 +315,13 @@
 .home-page-btn {
     position: relative;
     z-index: 1;
+}
+
+.footer-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 48px;
+    border: 1px solid #FFFFFF;
 }
 
 @media (max-width:991.98px) {
