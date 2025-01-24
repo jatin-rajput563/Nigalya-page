@@ -346,6 +346,11 @@
     height: 54px;
     border-radius: 48px;
     border: 1px solid #FFFFFF;
+    transition: all 200ms linear;
+}
+
+.footer-icon:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width:991.98px) {
