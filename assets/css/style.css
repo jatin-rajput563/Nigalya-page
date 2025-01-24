@@ -23,6 +23,18 @@
     gap: 14px;
 }
 
+.mt-16 {
+    margin-top: 16.55px;
+}
+
+.ml-16 {
+    margin-left: 16.55px;
+}
+
+.ml-lg-16 {
+    margin-left: 16.55px;
+}
+
 .gap-39 {
     gap: 39px;
 }
@@ -39,8 +51,8 @@
     padding-top: 26px;
 }
 
-.pt-209 {
-    padding-top: 209px;
+.pt-255 {
+    padding-top: 255px;
 }
 
 .pt-233 {
@@ -111,6 +123,7 @@
     z-index: 5;
 }
 
+/* ----------------------------- */
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -154,15 +167,14 @@
 
 .Whitepaper-btn {
     border: none;
-    outline: none;
     background-color: unset;
     color: white;
+    padding: 16px 28px 16px 28px;
+    border-radius: 30.5px;
     transition: all 200ms linear;
 }
 
 .Whitepaper-btn:hover {
-    padding: 16px 28px 16px 28px;
-    border-radius: 30.5px;
     background-color: white;
     color: black;
 }
@@ -204,7 +216,7 @@
     display: grid;
     grid-row: auto;
     grid-column: auto;
-    gap: 16.55px;
+    /* gap: 16.55px; */
 }
 
 .grid-item-1 {
@@ -285,6 +297,15 @@
 
 .section-4 .pl-0 {
     padding-left: 0;
+}
+
+.section-4 .pt-0 {
+    padding-left: 0;
+}
+
+.home-page-btn {
+    position: relative;
+    z-index: 1;
 }
 
 @media (max-width:991.98px) {
@@ -381,13 +402,17 @@
         padding-top: 0 !important;
     }
 
-    .pt-209 {
+    .pt-255 {
         padding-top: 0 !important;
     }
 
-    .JOIN-btn {
+    .home-page-btn {
         z-index: unset !important;
         position: unset !important;
+    }
+
+    .ml-lg-16 {
+        margin-left: 0;
     }
 }
 
@@ -400,7 +425,7 @@
         padding-bottom: 10px;
     }
 
-    .pt-209 {
+    .pt-255 {
         padding-top: 0;
     }
 
@@ -439,7 +464,7 @@
     }
 }
 
-@media (max-width:1024.98px) {
+@media (max-width:1183.98px) {
     .flex-reverse {
         flex-direction: column-reverse !important;
     }
@@ -454,14 +479,13 @@
         text-align: center;
     }
 
-    .pt-209 {
+    .pt-255 {
         padding-top: 100px;
     }
 
     .pt-233 {
         padding-top: 100px;
     }
-
 }
 
 /* ---------min-media-quarry------- */
