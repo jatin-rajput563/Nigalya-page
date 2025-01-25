@@ -91,6 +91,12 @@
 }
 
 
+@media (max-width:991.98px) {
+    :root {
+        --fw-900: 600;
+    }
+}
+
 @media (max-width:575.98px) {
     :root {
         --fs-xxl: 48px;
