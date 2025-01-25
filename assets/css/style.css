@@ -440,7 +440,7 @@
 
     .grid-item-6 {
         grid-row: 4/4;
-        grid-column: 1/5;
+        grid-column: 1/4;
     }
 
     .pt-257 {
@@ -500,6 +500,10 @@
 
     .sm-flex-column {
         flex-direction: column;
+    }
+
+    .grid {
+        gap: 9.5px;
     }
 }
 
